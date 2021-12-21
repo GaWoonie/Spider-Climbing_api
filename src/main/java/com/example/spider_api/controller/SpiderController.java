@@ -11,4 +11,10 @@ public class SpiderController {
     public String helloworldString() {
         return "helloworld";
     }
+    @GetMapping("/world")
+    @ResponseBody
+    public String worldString(){
+        return "가나다라마바사";
+    }
+
 }
